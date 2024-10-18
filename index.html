@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>globo.com - Absolutamente tudo sobre notícias, esportes e entretenimento</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./src/img/globocom4914-removebg-preview.png" type="image/x-icon">
+
+    <!--Meu CSS HEADER-->
+    <link rel="stylesheet" href="./assets/stylesHeader.css">
+    <!--Meu CSS BODY-->
+    <link rel="stylesheet" href="./assets/stylesBody.css">
+    <!--Meu CSS FOOTER-->
+    <link rel="stylesheet" href="./assets/stylesFooter.css">
+
+
+
+    <!-- FONT MONTSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="header-grid">
+            <div class="main-menu">
+                <div id="menu-lateral-esquerda">
+                    <button class="btn">
+                        <img src="./src/img/grip_vertical_icon_151315.png" alt="icone menu" width="20px" height="20px">
+                        Menu
+                    </button>
+                    <div id="menu-vitrine">
+                        <h6>Assine</h6>
+                    </div>
+                </div>
+
+                <div id="logo-central">
+                    <a href="#">
+                        <svg width="174" height="36" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 36"
+                            role="img">
+                            <title>Globo.com, aqui você encontra notícias da sua região, esportes, entretenimento e
+                                muito mais</title>
+                            <g clip-path="url(#a)">
+                                <path
+                                    d="M24.892.215c-1.213-.558-2.08 0-2.08 1.332v24.96c0 1.33.824 1.89 2.08 1.33l1.604-.687c.996-.472 1.473-1.116 1.473-2.19V3.135c0-1.074-.477-1.761-1.474-2.19l-1.603-.73ZM63.02 7.991c-2.036 0-3.986.859-5.286 2.19V1.376c0-.644-.39-.988-.996-.988h-3.12c-.65 0-.996.387-.996.988v25.303c0 .644.39.988.996.988h2.817c.65 0 .996-.387.996-.988v-1.074c1.213 1.375 3.466 2.406 5.72 2.406 4.895 0 9.14-4.425 9.14-10.01 0-5.67-4.288-10.01-9.27-10.01Zm-46.662.343c-.65 0-.996.387-.996.988v1.074c-1.127-1.374-3.25-2.405-5.33-2.405C4.92 7.99.5 12.33.5 18c0 5.67 4.16 9.579 9.402 9.579 2.34 0 4.159-1.074 5.199-2.19-.044 3.951-2.123 5.756-5.763 5.756-1.906-.043-3.726-.602-5.805-1.934-.563-.386-1.17-.257-1.473.344L.803 32.005c-.303.558-.216 1.117.39 1.503C3.793 35.184 6.87 36 9.512 36c6.932 0 10.745-3.694 10.745-12.243V9.322c0-.644-.39-.988-.997-.988h-2.903Zm23.916-.343c-5.416 0-9.965 4.21-9.965 10.01 0 5.799 4.463 10.009 9.965 10.009 5.416 0 9.965-4.21 9.965-10.01S45.776 7.99 40.273 7.99Zm44.062 0c-5.415 0-9.964 4.21-9.964 10.01 0 5.799 4.462 10.009 9.965 10.009C89.75 28.01 94.3 23.8 94.3 18S89.838 7.99 84.335 7.99Zm32.148 12.587c-.563 0-.866.258-1.17.73-.736 1.289-1.993 1.804-3.509 1.804-2.643 0-4.679-2.19-4.679-5.112 0-2.964 2.079-5.112 4.679-5.112 1.473 0 2.6.601 3.336 1.718.303.516.693.73 1.213.73h3.38c.693 0 1.083-.429.866-1.116-1.126-3.652-4.766-6.186-8.882-6.186-5.285 0-9.661 4.21-9.661 10.01 0 5.799 4.202 10.009 9.661 10.009 4.203 0 7.886-2.492 8.969-6.315.173-.688-.26-1.074-.91-1.074h-3.293v-.086ZM132.427 7.99c-5.416 0-9.965 4.21-9.965 10.01 0 5.799 4.463 10.009 9.965 10.009 5.416 0 9.965-4.21 9.965-10.01s-4.462-10.01-9.965-10.01Zm32.971 0c-2.08 0-4.203.859-5.676 2.75-1.083-1.59-2.902-2.75-5.199-2.75-2.253 0-3.856.988-4.896 2.32v-.989c0-.644-.389-.988-.996-.988h-2.816c-.65 0-.997.387-.997.988v17.313c0 .644.39.988.997.988h3.119c.65 0 .997-.387.997-.988V17.14c0-2.706 1.343-4.339 3.466-4.339 2.079 0 3.206 1.418 3.206 4.167v9.666c0 .644.39.988.996.988h3.12c.65 0 .996-.387.996-.988V17.14c0-2.706 1.343-4.339 3.466-4.339s3.207 1.418 3.207 4.167v9.666c0 .644.389.988.996.988h3.12c.649 0 .996-.387.996-.988V16.368c-.087-5.112-3.076-8.377-8.102-8.377ZM10.378 23.069c-2.643 0-4.852-2.062-4.852-5.112 0-3.093 2.21-5.112 4.852-5.112 2.643 0 4.853 2.062 4.853 5.112-.043 3.05-2.21 5.112-4.853 5.112Zm29.895.043c-2.686 0-4.852-2.148-4.852-5.112s2.166-5.112 4.852-5.112c2.686 0 4.853 2.148 4.853 5.112.043 2.964-2.167 5.112-4.853 5.112Zm22.14 0c-2.6 0-4.81-2.062-4.81-5.112 0-3.05 2.167-5.112 4.81-5.112 2.6 0 4.809 2.062 4.809 5.112 0 3.093-2.21 5.112-4.81 5.112Zm21.922 0c-2.686 0-4.852-2.148-4.852-5.112s2.166-5.112 4.852-5.112c2.687 0 4.853 2.148 4.853 5.112.043 2.964-2.166 5.112-4.853 5.112Zm48.092 0c-2.686 0-4.852-2.148-4.852-5.112s2.166-5.112 4.852-5.112c2.686 0 4.853 2.148 4.853 5.112.043 2.964-2.123 5.112-4.853 5.112Zm-34.27-1.761c-1.734 0-3.337 1.332-3.337 3.308 0 2.019 1.603 3.35 3.336 3.35 1.733 0 3.337-1.331 3.337-3.307 0-2.02-1.604-3.351-3.337-3.351Z"
+                                    fill="url(#b)"></path>
+                            </g>
+                            <defs>
+                                <linearGradient id="b" x1="30.251" y1="18.001" x2="168.396" y2="55.977"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#0420FC"></stop>
+                                    <stop offset="1" stop-color="#03B4FC"></stop>
+                                </linearGradient>
+                                <clipPath id="a">
+                                    <path fill="#fff" transform="translate(.5)" d="M0 0h173v36H0z"></path>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+
+                <div id="menu-lateral-direita" class="caixaflex">
+                    <div class="caixaflex">
+                        <h6>Conta Globo</h6>
+                        <img src="./src/img/9187604.png" alt="Usuário" width="30px" height="30px" id="img-user">
+                    </div>
+
+                    <div class="caixaflex" id="menu-img">
+                        <h6>Busca</h6>
+                        <img src="./src/img/5272056.png" alt="Usuário" width="30px" height="30px" id="img-user">
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </nav>
+
+        <hr>
+        <nav class="navbar" id="navbar-secundaria">
+            <div class="container">
+                <ul class="list-group list-group-flush  flex-fill" id="lista-navbar">
+                    <li class="list-group-item" id="g1">g1</li>
+                    <li class="list-group-item" id="globo">o globo</li>
+                    <li class="list-group-item" id="valor">valor</li>
+                    <li class="list-group-item" id="ge">ge</li>
+                    <li class="list-group-item" id="cartola">cartola</li>
+                    <li class="list-group-item" id="globoplay">globoplay</li>
+                    <li class="list-group-item" id="gshow">gshow</li>
+                    <li class="list-group-item" id="receitas">receitas</li>
+                    <li class="list-group-item" id="quem">quem</li>
+                    <li class="list-group-item" id="podcast">podcast</li>
+                </ul>
+
+            </div>
+        </nav>
+        <hr>
+
+    </header>
+    <main>
+        <section class="image-container" id="image-container-destaque">
+            <a href="#">
+                <img src="./src/img/pglo-set0009-banner-home-premio-multishow-768x334-1-5x.avif" alt=""
+                    class="img-fluid" id="img-banner">
+            </a>
+        </section>
+        <section class="container" id="area-destaque">
+            <div class="card-body" id="texto-destaque-maior">
+
+
+
+            </div>
+            <div id="agrupa-tudo">
+                <div class="container" id="cards-esquerda">
+                    <h2 class="card-title" id="texto-destaque-maior">Financiamento da Caixa: g1 detalha mudanças em
+                        imóveis
+                        de até R$ 1,5 mi</h2>
+                    <ul class="card-text" id="bullet-destaque-maior">
+                        <li>
+                            Perdi o prazo para sacar o 'dinheiro esquecido' no Banco Central, e agora?
+                        </li>
+                        <li>
+                            Para fazer cortes, equipe econômica de Lula mira de emendas a estatais
+                        </li>
+                    </ul>
+                    <div class="post-row">
+                        <div class="card card1" id="card-area-destaque">
+                            <img class="card-img-top" src="/src/img/agif24101622443916.avif">
+                            <div class="card-body">
+                                <h5 class="card-title">Atlético-MG empata jogo com o Fortaleza no Castelão; SIGA</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Confira classificação e resultados da Série A
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card card2" id="card-area-destaque">
+                            <img class="card-img-top"
+                                src="/src//img/liam-payne-01-press-photo-new-2018-billboard-1548.avif"
+                                alt="Card image cap" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Liam Payne, ex-One Direction, morre aos 31 na Argentina</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Liam fez post na web pouco antes da morte
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card card3" id="card-area-destaque">
+                            <img class="card-img-top"
+                                src="/src/img/liam-payne-gty-lv-241016-2-1729114422914-hpmain-16x9.avif"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Quarto de Liam tinha pó branco e TV destruída, diz jornal</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Famosos do Brasil e do exterior lamentam morte
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-row">
+                        <div class="card card1" id="card-area-destaque">
+                            <img class="card-img-top" src="/src/img/7.avif">
+                            <div class="card-body">
+                                <h5 class="card-title">Eleição de SP ainda não está decidida; Natuza Nery analisa</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Nunes anuncia segunda ausência em debates
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card card2" id="card-area-destaque">
+                            <img class="card-img-top" src="/src//img/8.avif" alt="Card image cap" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Hotel onde Payne morreu concentra de fãs a policiais</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Ex-One Direction cantou em festa de jovem em GO
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card card3" id="card-area-destaque">
+                            <img class="card-img-top" src="/src/img/9.avif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Lauro Jardim: Enel diz ter restabelecido energia em SP</h5>
+                                <ul class="card-text">
+                                    <li>
+                                        Afinal, por que é tão difícil punir a Enel por apagão?
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container post-col" id="cards-direita">
+                    <div class="post-column1">
+                        <div class="card card1" id="card-area-destaque">
+                            <img class="card-img-top" src="/src/img/3.avif">
+                            <div class="card-body">
+                                <h5 class="card-title">Neymar completa 1 ano sem jogar e mira volta à Seleção ainda em
+                                    2024
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card card2" id="card-area-destaque">
+                            <img class="card-img-top" src="/src//img/1.avif" alt="Card image cap" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Mudanças surtem efeito, São Paulo convence no 3-0 no Vasco e cola
+                                    no
+                                    G-4</h5>
+                            </div>
+                        </div>
+                        <div class="card card3" id="card-area-destaque">
+                            <img class="card-img-top" src="/src/img/2.avif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Galo reserva arranca empate contra Fortaleza, melhor mandante
+                                </h5>
+                            </div>
+                            <ul class="card-text">
+                                <li>
+                                    Hoje tem Fla x Flu! Veja times
+                                </li>
+                                <li>
+                                    Tudo sobre Timão x Athletico
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="post-column1">
+                        <div class="card card1" id="card-coluna">
+                            <img class="card-img-top" src="/src/img/4.avif">
+                            <div class="card-body">
+                                <h5 class="card-title">'Mania': Rudá tranca Mavi na sauna de resort
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card card2" id="card-coluna">
+                            <img class="card-img-top" src="/src//img/5.avif" alt="Card image cap" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">'Vou desfilar grávida ou troco de médico', diz Sato</h5>
+                            </div>
+                        </div>
+                        <div class="card card3" id="card-coluna">
+                            <img class="card-img-top" src="/src/img/6.avif" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Cazarré garante que não descarta aumentar mais a família; mais
+                                    velho
+                                    tem 14
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="area-fill"></div>
+    </main>
+
+
+    <footer class="footer" id="footer">
+        <div class="footer-content container">
+            <div class="footer-container" id="agrupa-tudo">
+                <div class="image-container">
+                    <img src="./src/img/footer.svg" alt="Logo do footer" id="img-footer-esquerda">
+                </div>
+                <div class="footer-nav" id="footer-nav">
+                    <ul class="footer-links" id="footer-lista-navbar">
+                        <li class="footer-item"><a href="#" class="footer-link">Todos os sites</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Princípios editoriais</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Termos de uso</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Políticas de privacidade</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Minha conta</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Anuncie conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><img src="/src/img/icon-footer.svg" alt="logo-globo-footer" height="40px"> &copy; 2024 Globo.com -
+                    Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

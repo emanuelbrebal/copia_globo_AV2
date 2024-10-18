@@ -1,0 +1,113 @@
+*{
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+/* HEADER SUPERIOR */
+.header-grid .main-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center ;
+    margin: 20px;
+}
+
+h6{
+    margin-top: 10px;
+}
+
+hr{
+    margin: 0 auto;
+}
+
+img#img-banner{
+    width: 600px;
+}
+
+#menu-vitrine{
+    display: inline-block;
+    text-align: center;
+    min-width: 5.25rem;
+   
+}
+
+#menu-img{
+    display: flex;
+    text-align: right;
+    margin-left: 10px;
+    padding-left: 12px;
+}
+
+#menu-lateral-navbar{
+    justify-content: left;
+}
+
+#img-user{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+#img-busca{
+    justify-content: end;
+}
+
+.caixaflex{
+    display: flex;
+    flex-direction: row;
+
+}
+/* HEADER INFERIOR */
+.navbar#navbar-secundaria .container{
+    justify-content: space-evenly;
+}
+
+.navbar#navbar-secundaria ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.navbar#navbar-secundaria li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.navbar#navbar-secundaria #lista-navbar li{
+    justify-content: space-evenly;
+    
+}
+
+/* CORES LI */
+#g1{
+   color: #c4170c;
+}
+#globo{
+    color: #1e4c9a;
+}
+#valor{
+    color: #006767;
+}
+#ge{
+    color: #06aa48;
+}
+#cartola{
+    color: #ff7400;
+}
+#globoplay{
+    color: #fb0234;
+}
+#gshow{
+    color: #ff6700;
+}
+#receitas{
+    color: #a5147d;
+}
+#quem{
+    color: #333;
+}
+#podcast{
+    color: #4f5257;
+}

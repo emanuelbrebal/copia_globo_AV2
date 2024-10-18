@@ -1,0 +1,141 @@
+main{
+    margin: 0 auto;
+    padding: 0 auto;
+    flex: 1;
+    height: 3000px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+section#image-container-destaque{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#area-destaque{
+    margin-top: 20px;
+    max-height: fit-content;
+    
+}
+
+.card{
+    border: none;
+    max-height: fit-content;
+}
+
+.caixa-imagem-destaque{
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.post-row{
+    border-top: 2px solid #ebedef;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.post-column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.container.row{
+    padding: 0 auto;
+}
+.card#card-area-destaque{
+    border-top: 2px solid #ebedef;
+    width: 12rem;
+    margin: 4px;
+    li{
+        font-size: 13px;
+    }
+}
+
+.card h5.card-title{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.card ul.card-text{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.card-body#texto-destaque-maior{
+    max-width: 50%;
+    
+}
+
+h2#texto-destaque-maior{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #c4170c;
+}
+
+.post-column1{
+    display: inline-flex;
+    max-width: 16rem;
+    padding: 0 35px;
+    border-left: 1px solid #ebedef;
+}
+
+section#area-destaque{
+    max-height: 70vh;
+}
+
+#cards-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 50%;
+}
+
+#cards-esquerda{
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+#cards-direita{
+    max-width: 50%;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+#post-col{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#agrupa-tudo{
+    display: inline-flex;
+}
+
+#card-coluna h5.card-title{
+    color: #ff6700;
+}
+
+#cards-direita h5{
+    color: #06aa48;
+}
+
+#cards-esquerda h5{
+    color: #c4170c;
+}
+
+
+#area-fill{
+    display: block;
+    margin: 100px;
+    height: 50px;
+}
